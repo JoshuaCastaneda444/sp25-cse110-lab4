@@ -1,0 +1,2 @@
+1. The numbers were of a string type and the + operation was concatenating them instead of adding them as numbers.
+2. I would try to parse the strings as numbers and then add them. In the screenshot I do this naively, but there are many "unhappy paths" that one might consider when parsing numbers from strings. 
